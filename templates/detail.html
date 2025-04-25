@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}{{ title }} - 详情页{% endblock %}
+{% block content %}
+    <div class="post-detail" style="padding:2em 0;">
+        <h2 style="color:#222;">{{ title }}</h2>
+        <p style="font-weight:bold;color:#d7000f;">{{ quote }}</p>
+        <p style="color:#666;">点评：{{ comment }}</p>
+        <div style="margin-top:1.5em;color:#444;line-height:1.8;">
+            {{ content }}
+        </div>
+    </div>
+{% endblock %}

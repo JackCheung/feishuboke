@@ -1,0 +1,11 @@
+body { background: #fafbfc; margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif; }
+.container { max-width: 700px; margin: 0 auto; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.04); padding: 2em 2em 4em 2em; min-height: 100vh; }
+h1 { font-size: 2.2em; margin-bottom: 0.5em; }
+h2 { font-size: 1.4em; margin: 0.5em 0; }
+.post-preview h2 a { transition: color 0.2s; }
+.post-preview h2 a:hover { color: #d7000f; text-decoration: underline; }
+@media (max-width: 800px) {
+  .container { padding: 1em 0.5em; }
+  h1 { font-size: 1.5em; }
+  h2 { font-size: 1.1em; }
+}
